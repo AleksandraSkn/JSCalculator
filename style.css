@@ -1,0 +1,49 @@
+input{
+display: block; 
+width: 17rem; 
+margin: 0.3rem; 
+border: 1px solid silver; 
+font-size: large;
+text-align: center;
+}
+
+.numbers button, .operators button{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.1rem;
+    border: 2 px solid silver;
+    outline-width: 0;
+}
+
+button.big-button{
+    height: 6.1rem;
+    }
+
+    button.clear{
+        background-color: rgb(80, 83, 83);
+    }
+
+    button.result{
+        background-color: rgb(80, 83, 83);
+    }
+
+button:hover{
+    border-color: darkgrey;
+}
+
+button:active{
+    font-weight: bold;
+    background-color: silver;
+}
+
+.left-panel, .right-panel{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.3rem;
+}
+
+body{
+    background-image: url(user14579558.jpg);
+    background-position: center;
+}
